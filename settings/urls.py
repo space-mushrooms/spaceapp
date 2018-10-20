@@ -21,7 +21,4 @@ urlpatterns = [
     url(r'^django_rq/', include('django_rq.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-if settings.DEBUG:
-    urlpatterns += [url(r'^silk/', include('silk.urls', namespace='silk'))]
-
 admin.autodiscover()

@@ -42,14 +42,11 @@ INSTALLED_APPS = [
     'raven.contrib.django.raven_compat',
 
     'django_rq',
-    'import_export',
 
     'app',
 
     'utils',
     'utils.redis_queue',
-
-    'storages',
 ]
 
 MIDDLEWARE_CLASSES = [
