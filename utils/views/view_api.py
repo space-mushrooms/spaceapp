@@ -8,7 +8,7 @@ from django.utils.decorators import method_decorator
 from django.views.decorators.csrf import csrf_exempt
 from django.views.generic import View
 
-from api.models import ApiAccess
+from app.models.api import ApiAccess
 
 
 class ApiView(View):

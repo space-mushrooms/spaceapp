@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'django_rq',
     'import_export',
 
-    'api',
+    'app',
 
     'utils',
     'utils.redis_queue',

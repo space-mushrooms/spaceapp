@@ -16,7 +16,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^auth/', include((auth, 'utils'), namespace='auth')),
 
-    url(r'^api/', include('api.urls')),
+    url(r'^api/', include('app.urls')),
 
     url(r'^django_rq/', include('django_rq.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
