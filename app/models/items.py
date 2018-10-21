@@ -73,7 +73,7 @@ class Rocket(models.Model):
     description = models.TextField(null=True, blank=True)
 
     wiki_url = models.CharField(max_length=255, null=True, blank=True)
-    image = ResizedImageField(size=[1920, 1920], upload_to=upload_to, null=True, blank=True)
+    image = models.ImageField(upload_to=upload_to, null=True, blank=True)
 
     external_id = models.IntegerField(null=True, blank=True)
     updated_dt = models.DateTimeField(null=True, blank=True)
