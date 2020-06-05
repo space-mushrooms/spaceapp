@@ -1,4 +1,4 @@
-Django==2.1
+Django==2.2.13
 django-environ==0.4.4
 django-resized==0.3.8
 django-rq==1.2.0
